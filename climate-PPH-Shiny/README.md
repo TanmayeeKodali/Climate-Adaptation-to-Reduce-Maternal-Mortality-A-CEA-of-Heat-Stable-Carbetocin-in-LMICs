@@ -7,7 +7,7 @@ Interactive Shiny dashboard exploring how **climate change and cold-chain fragil
   
   ---
   
-  ## 1. Scientific context
+## 1. Scientific context
   
 - PPH is a leading cause of maternal mortality worldwide, with the burden concentrated in LMICs.
 - Oxytocin is the guideline-recommended first-line uterotonic for PPH prevention and treatment, but its potency is highly temperature-sensitive and requires a reliable cold chain (2–8°C)
@@ -20,7 +20,7 @@ This dashboard operationalizes a **decision-analytic cost-effectiveness framewor
   
   ---
   
-  ## 2. Overview of the app
+## 2. Overview of the app
   
   The dashboard is implemented as an R Shiny application with a standard `global.R`, `server.R`, and UI layout. Key visualizations include:
   
@@ -58,7 +58,7 @@ Additional sections in the dashboard provide explanatory callouts on how each ma
 
 ---
   
-  ## 3. Data & model structure
+## 3. Data & model structure
   
   ### 3.1 Data sources
   
@@ -100,7 +100,7 @@ where:
 
 ---
   
-  ## 4. Code structure
+## 4. Code structure
   
   The app follows a standard Shiny structure:
   
@@ -143,7 +143,7 @@ region_colors <- c(
 
 ---
   
-  ## 5. Recent refinements
+## 5. Recent refinements
   
   Several iterations and bug fixes were applied to make the dashboard robust and interpretable:
   
@@ -169,7 +169,7 @@ region_colors <- c(
 
 ---
   
-  ## 6. How to run locally
+## 6. How to run locally
   
   1. **Clone the repository:**
   
@@ -197,7 +197,7 @@ runApp(".")
 
 ---
   
-  ## 7. Reproducibility & limitations
+## 7. Reproducibility & limitations
   
   - The model uses **aggregated LMIC region-level and country-level inputs** and climate projections; results are not intended as exact forecasts but as **policy-relevant scenario analysis**.
 - Cold-chain performance and health system parameters are simplified into a small set of key parameters (e.g., hazard ratio per °C, baseline cold-chain failure, discount rate). This is transparent in the parameter tables and documented downstream in the accompanying methods.
@@ -205,8 +205,8 @@ runApp(".")
 - The ICER map classification does not capture all dimensions of implementation feasibility (regulatory readiness, training, supply, etc.), which need to be considered alongside the quantitative outputs.
 
 ---
-  
-  ## 8. Citation / further reading
+
+## 8. Citation / further reading
   
   Key background readings on heat-stable carbetocin, oxytocin, and cost-effectiveness in LMICs include:
   
@@ -217,15 +217,15 @@ runApp(".")
 
 ---
   
-  ## Contact
+## Contact
+  
+**Author:** Tanmayee Kodali  
+**Course:** DATA 555 - Current Topics in Data Science  
+**Institution:** Emory University
 
-  Author: Tanmayee Kodali
-  Course: DATA 550 - Data Science Toolkit
-  Institution: Emory University
-
-  For questions or issues, please open an issue on this GitHub repository.
+For questions or issues, please open an issue on this GitHub repository.
   
 ---
   
-  ## License
-  This project is for educational purposes as part of DATA 555 coursework.
+## License
+This project is for educational purposes as part of DATA 555 coursework.
