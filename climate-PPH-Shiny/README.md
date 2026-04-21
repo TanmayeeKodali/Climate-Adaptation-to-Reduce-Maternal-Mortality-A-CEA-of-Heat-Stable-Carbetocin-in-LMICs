@@ -214,3 +214,18 @@ runApp(".")
 - Decision-analytic cost-effectiveness modelling of HSC vs oxytocin, including dynamic ICER trajectories and dominance scenarios.
 - WHO and global guidance on HSC as an option for PPH prevention in settings where cold chain is unreliable.
 - General discussions of heat-stable pharmaceutical formulations for climate-vulnerable health systems.
+
+---
+  
+  ## Contact
+
+  Author: Tanmayee Kodali
+  Course: DATA 550 - Data Science Toolkit
+  Institution: Emory University
+
+  For questions or issues, please open an issue on this GitHub repository.
+  
+---
+  
+  ## License
+  This project is for educational purposes as part of DATA 555 coursework.
